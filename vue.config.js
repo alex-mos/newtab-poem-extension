@@ -17,14 +17,14 @@ module.exports = {
       chunks: ["chunk-vendors", "chunk-common", "newtab"],
     },
   },
-  // configureWebpack: {
-  //   module: {
-  //     rules: [
-  //       {
-  //         test: /\.txt$/i,
-  //         use: 'raw-loader',
-  //       },
-  //     ],
-  //   },
-  // }
+  configureWebpack: {
+    module: {
+      rules: [
+        {
+          test: /\.txt$/i,
+          use: "raw-loader",
+        },
+      ],
+    },
+  },
 };
