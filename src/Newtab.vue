@@ -11,7 +11,7 @@ export default {
   name: "App",
   computed: {
     randomGarik() {
-      const gariks = gariksTxt.split("\n\n");
+      const gariks = gariksTxt.split("\n\n\n");
       const randomIndex = Math.floor(Math.random() * gariks.length);
       return gariks[randomIndex];
     },
