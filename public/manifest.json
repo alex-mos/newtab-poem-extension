@@ -1,11 +1,8 @@
 {
-  "name": "Garik",
-  "description": "Shows Igor Guberman's short verse (garik) on a new tab.",
+  "name": "Newtab poem",
+  "description": "Shows a short poem by Igor Guberman on a new tab.",
   "version": "1.0",
   "manifest_version": 3,
-  "permissions": [
-    "storage"
-  ],
   "chrome_url_overrides" : {
     "newtab": "newtab.html"
   }

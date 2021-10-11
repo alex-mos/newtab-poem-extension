@@ -5,15 +5,15 @@
 </template>
 
 <script>
-import gariksTxt from "./gariks.txt";
+import gubermanTxt from "./poetry/guberman.txt";
 
 export default {
   name: "App",
   computed: {
     randomGarik() {
-      const gariks = gariksTxt.split("\n\n\n");
-      const randomIndex = Math.floor(Math.random() * gariks.length);
-      return gariks[randomIndex];
+      const guberman = gubermanTxt.split("\n\n\n");
+      const randomIndex = Math.floor(Math.random() * guberman.length);
+      return guberman[randomIndex];
     },
   },
 };
