@@ -19,3 +19,13 @@ html, body {
   font-family: 'PT Serif', serif;
   font-size: 32px;
 }
+
+@media (prefers-color-scheme: dark) {
+  .page {
+    background-color: rgb(40, 41, 35);
+  }
+
+  .verse {
+    color: rgb(245, 237, 221);
+  }
+}
