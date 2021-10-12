@@ -1,4 +1,7 @@
-# garik-vue
+# newtab-poem
+
+## description
+Расширение для браузера, которое на новой открытой вкладке показывает случайное стихотворение.
 
 ## Project setup
 ```
@@ -19,6 +22,3 @@ yarn build
 ```
 yarn lint
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).

@@ -21,3 +21,7 @@ pnpm-debug.log*
 *.njsproj
 *.sln
 *.sw?
+
+# Chrome Developer Dashboard keys
+dist.crx
+dist.pem
