@@ -1,9 +1,12 @@
 {
   "name": "Newtab poem",
   "description": "Shows a short poem by Igor Guberman on a new tab.",
-  "version": "1.0",
+  "version": "1.0.1",
   "manifest_version": 3,
   "chrome_url_overrides" : {
     "newtab": "newtab.html"
+  },
+  "icons": {
+    "128": "icon.png"
   }
 }
